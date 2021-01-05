@@ -15,8 +15,7 @@ upper_or_lower("AFGJHJTYUTGU")
 upper_or_lower("asddffghfrsds")
 
 
-####Write a list comprehension that capitalises every letter in the word 'smogtether'
-def capitalise():
-  capital="smogtether".upper()
-  print(capital)
-capitalise()  
+####Write a list comprehension that capitalises every letter in the word 'smogtether
+capital=[x.upper() for x in "smogetether"]
+print(capital)
+
