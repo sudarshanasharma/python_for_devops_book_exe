@@ -19,3 +19,16 @@ upper_or_lower("asddffghfrsds")
 capital=[x.upper() for x in "smogetether"]
 capstring=''.join(capital)
 print(capstring)
+
+###Write a generator function that alternates between odd and even
+def odd_or_even(n):
+  while True:
+    n+=1
+    if n%2 :
+      yield "Odd"
+    else:
+      yield "Even"
+  
+
+odd_or_even(45)
+  
