@@ -11,3 +11,5 @@ def upper_or_lower(word):
     print ("It is upper case")
   else:
     print ("It is lower case")
+upper_or_lower("AFGJHJTYUTGU")
+upper_or_lower("asddffghfrsds")
