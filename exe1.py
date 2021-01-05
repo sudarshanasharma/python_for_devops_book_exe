@@ -18,4 +18,4 @@ upper_or_lower("asddffghfrsds")
 ####Write a list comprehension that capitalises every letter in the word 'smogtether
 capital=[x.upper() for x in "smogetether"]
 capstring=str(capital)
-print(capital)
+print(capstring)
