@@ -11,4 +11,4 @@ def print_p_name(name):
   
   
 if __name__=='__main__':
-  print_p_name(name)
+  print_p_name()
