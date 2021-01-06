@@ -6,7 +6,7 @@ import re
 @click.command()
 @click.option('--name',default='ramsam',help='what izs your name?')
 def print_p_name(name):
-  if re.match(r'(^[Pp]\w+)',name)
+  if re.match(r'(^[Pp]\w+)',name):
     print(f"{name}")
   
   
